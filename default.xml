@@ -12,7 +12,10 @@
 
  <remote name="cr3pt"
           fetch="git://github.com/cr3pt/" />
-           
+          
+           <remote name="lg"
+          fetch="git://github.com/legaCyMod/" />
+          
   <remote name="THLG"
           fetch="git://github.com/TeamHackLG/" />
            
@@ -337,7 +340,7 @@
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/volley" name="platform/frameworks/volley" />
-  <project path="frameworks/webview" name="TEAM-Gummy/android_frameworks_webview" remote="tg" revision="kk4.4" />
+  <project path="external/webkit" name="android_external_webkit" remote="lg" revision="cm-11.0" />
   <project path="frameworks/wilhelm" name="TEAM-Gummy/platform_frameworks_wilhelm" remote="tg" revision="kk4.4" />
 
   <!-- Hardware Packages -->
