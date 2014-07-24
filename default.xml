@@ -552,6 +552,6 @@
 
   <!-- Vendor Packages -->
   <project path="vendor/Gummy" name="TEAM-Gummy/vendor_Gummy" remote="tg" revision="kk4.4" />
-  <project path="vendor/lge" name="proprietary_vendor_lge" revision="cm-11.0" remote="THLG"/>
+  <project path="vendor/lge" name="proprietary_vendor_lge" revision="cm-11.0" remote="cr3pt"/>
 
 </manifest>
