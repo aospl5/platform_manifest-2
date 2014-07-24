@@ -95,10 +95,10 @@
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
-  <project path="external/chromium" name="TEAM-Gummy/platform_external_chromium" remote="tg" revision="kk4.4" />
+  <project path="external/chromium" name="android_external_chromium" remote="androidarmv6" revision="cm-11.0" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <project path="external/chromium_org" name="TEAM-Gummy/platform_external_chromium_org" remote="tg" revision="kk4.4" />
+  <project path="external/chromium_org" name="android_external_chromium_org" remote="androidarmv6" revision="cm-11.0" />
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" />
   <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" />
@@ -264,7 +264,7 @@
   <project path="external/sepolicy" name="TEAM-Gummy/android_external_sepolicy" remote="tg" revision="kk4.4" />
   <project path="external/sfntly" name="platform/external/sfntly" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" />
-  <project path="external/skia" name="TEAM-Gummy/android_external_skia" remote="tg" revision="kk4.4" />
+  <project path="external/skia" name="android_external_skia" remote="androidarmv6" revision="cm-11.0" />
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
@@ -298,6 +298,7 @@
   <project path="external/yaffs2" name="TEAM-Gummy/android_external_yaffs2" remote="tg" revision="kk4.4" />
   <project path="external/zlib" name="TEAM-Gummy/android_external_zlib" remote="tg" revision="kk4.4" />
   <project path="external/zxing" name="platform/external/zxing" />
+  <project path="external/webkit" name="android_external_webkit" remote="androidarmv6" revision="cm-11.0" />
  
   <!-- Koush Superuser -->
   <project path="external/koush/Superuser" name="TEAM-Gummy/koush_Superuser" remote="tg" revision="kk4.4" />
@@ -334,7 +335,7 @@
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/volley" name="platform/frameworks/volley" />
-  <project path="frameworks/webview" name="TEAM-Gummy/android_frameworks_webview" remote="tg" revision="kk4.4" />
+  <project path="frameworks/webview" name="android_frameworks_webview" remote="androidarmv6" revision="cm-11.0" />
   <project path="frameworks/wilhelm" name="TEAM-Gummy/platform_frameworks_wilhelm" remote="tg" revision="kk4.4" />
 
   <!-- Hardware Packages -->
@@ -388,7 +389,7 @@
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="TEAM-Gummy/packages_apps_Bluetooth" remote="tg" revision="kk4.4" />
   <project path="packages/apps/BluetoothExt" name="TEAM-Gummy/packages_apps_BluetoothExt" remote="tg" revision="kk4.4" />
-  <project path="packages/apps/Browser" name="TEAM-Gummy/packages_apps_Browser" remote="tg" revision="kk4.4" />
+  <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="androidarmv6" revision="cm-11.0" />
   <project path="packages/apps/Calculator" name="TEAM-Gummy/packages_apps_Calculator" remote="tg" revision="kk4.4" />
   <project path="packages/apps/Calendar" name="TEAM-Gummy/packages_apps_Calendar" remote="tg" revision="kk4.4" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
