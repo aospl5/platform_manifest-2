@@ -16,6 +16,9 @@
            <remote name="lg"
           fetch="git://github.com/legaCyMod/" />
           
+            <remote name="gh"
+           fetch="https://github.com/" />
+           
   <remote name="THLG"
           fetch="git://github.com/TeamHackLG/" />
            
