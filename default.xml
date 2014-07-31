@@ -549,8 +549,8 @@
  <project path="device/lge/msm7x27a-common" name="android_device_lge_msm7x27a-common" revision="cm-11.0" remote="THLG"/>
  <project path="kernel/lge/msm7x27a-common" name="lge-kernel-lproj" revision="android-msm-3.4-kk" remote="THLG"/>
   <project path="vendor/Gummy" name="TEAM-Gummy/vendor_Gummy" remote="tg" revision="kk4.4" />
-  <project path="vendor/lge" name="proprietary_vendor_lge" revision="cm-11.0" remote="cr3pt"/>
-  <project path="hardware/qcom/media-caf" name="imercm/android_hardware_qcom_media-caf" groups="caf" remote="gh" revision="cm-11.0"/>
-  <project path="hardware/qcom/display-caf" name="imercm/android_hardware_qcom_display-caf" groups="caf" remote="gh" revision="cm-11.0"/>
-  <project path="frameworks/av" name="imercm/android_frameworks_av" groups="pdk" remote="gh" revision="cm-11.0"/>
+  <project path="vendor/lge" name="proprietary_vendor_lge" revision="cm-11.0" remote="THLG"/>
+  <project path="hardware/qcom/media-caf" name="cr3pt/android_hardware_qcom_media-caf" groups="caf" remote="gh" revision="cm-11.0"/>
+  <project path="hardware/qcom/display-caf" name="cr3pt/android_hardware_qcom_display-caf" groups="caf" remote="gh" revision="cm-11.0"/>
+  <project path="frameworks/av" name="androidarmv6/android_frameworks_av" groups="pdk" remote="gh" revision="cm-11.0"/>
 </manifest>
