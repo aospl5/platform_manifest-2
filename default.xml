@@ -550,7 +550,7 @@
  <project path="kernel/lge/msm7x27a-common" name="lge-kernel-lproj" revision="android-msm-3.4-kk" remote="THLG"/>
   <project path="vendor/Gummy" name="TEAM-Gummy/vendor_Gummy" remote="tg" revision="kk4.4" />
   <project path="vendor/lge" name="proprietary_vendor_lge" revision="cm-11.0" remote="THLG"/>
-  <project path="hardware/qcom/media-caf" name="cr3pt/android_hardware_qcom_media-caf" groups="caf" remote="gh" revision="cm-11.0"/>
-  <project path="hardware/qcom/display-caf" name="cr3pt/android_hardware_qcom_display-caf" groups="caf" remote="gh" revision="cm-11.0"/>
+  <project path="hardware/qcom/media-caf" name="TeamHackLG/android_hardware_qcom_media-caf" groups="caf" remote="gh" revision="cm-11.0"/>
+  <project path="hardware/qcom/display-caf" name="TeamHackLG/android_hardware_qcom_display-caf" revision="temp" groups="caf" remote="gh"/>
   <project path="frameworks/av" name="androidarmv6/android_frameworks_av" groups="pdk" remote="gh" revision="cm-11.0"/>
 </manifest>
