@@ -1,41 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-  <remote  name="aosp"
-           fetch="http://android.googlesource.com/"
-           review="https://android-review.googlesource.com/" />
-
-  <remote  name="tg"
-           fetch="https://github.com/"
-           review="review.gummyrom.com"
-           sync-j="8" />
-
- <remote name="cr3pt"
-          fetch="git://github.com/cr3pt/" />
-          
-           <remote name="lg"
-          fetch="git://github.com/legaCyMod/" />
-          
-            <remote name="gh"
-           fetch="https://github.com/" />
-           
-  <remote name="THLG"
-          fetch="git://github.com/TeamHackLG/" />
-           
-  <remote  name="tm"
-           fetch="https://github.com/TheMuppets/" />
-           
- <remote  name="tm"
-           fetch="https://github.com/TheMuppets/" />
-           
-  <remote  name="cm"
-           fetch="https://github.com/"
-           review="review.cyanogenmod.org" />
-
-  <default revision="refs/tags/android-4.4.4_r1"
-           remote="aosp"
-           sync-j="8" />
-
+<remote name="aosp"
+fetch="https://android.googlesource.com/"
+review="https://android-review.googlesource.com/" />
+<remote name="github"
+fetch="https://github.com/"
+sync-j="8" />
+<remote name="tg"
+fetch="https://github.com/"
+review="review.gummyrom.com"
+sync-j="8" />
+<remote name="tm"
+fetch="https://github.com/TheMuppets/" />
+<remote name="THLG"
+fetch="git://github.com/TeamHackLG/" />
+<remote name="cm"
+fetch="https://github.com/"
+review="review.cyanogenmod.org" />
+<default revision="refs/tags/android-4.4.4_r2"
+remote="aosp"
+sync-j="8" />
 <project path="build" name="TEAM-Gummy/android_build" remote="tg" revision="kk4.4" >
 <copyfile src="core/root.mk" dest="Makefile" />
 </project>
@@ -445,6 +429,7 @@
 <project path="hardware/qcom/audio-caf-legacy" name="TEAM-Gummy/hardware_qcom_audio-caf-legacy" remote="tg" revision="kk4.4" />
 <project path="hardware/qcom/bt" name="TEAM-Gummy/hardware_qcom_bt" remote="tg" revision="kk4.4" />
 <project path="hardware/qcom/display" name="TEAM-Gummy/hardware_qcom_display" remote="tg" revision="kk4.4" />
+<project path="hardware/qcom/display-caf" name="TEAM-Gummy/hardware_qcom_display-caf" remote="tg" revision="kk4.4" />
 <project path="hardware/qcom/display-caf-new" name="TEAM-Gummy/android_hardware_qcom_display-caf-new" remote="tg" revision="kk4.4" />
 <project path="hardware/qcom/display-msm8226" name="TEAM-Gummy/android_hardware_qcom_display-msm8226" remote="tg" revision="kk4.4" />
 <project path="hardware/qcom/display-mdss" name="TEAM-Gummy/hardware_qcom_display-mdss" remote="tg" revision="kk4.4" />
@@ -635,10 +620,9 @@
 <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 <!-- Vendor Packages -->
 <project path="vendor/Gummy" name="TEAM-Gummy/vendor_Gummy" remote="tg" revision="kk4.4" />
-
-   <project path="device/lge/e610" name="android_device_lge_e610" revision="cm-11.0" remote="THLG"/>
- <project path="device/lge/msm7x27a-common" name="android_device_lge_msm7x27a-common" revision="cm-11.0" remote="THLG"/>
- <project path="kernel/lge/msm7x27a-common" name="lge-kernel-lproj" revision="android-msm-3.4-kk" remote="THLG"/>
- <project path="vendor/lge" name="proprietary_vendor_lge" revision="cm-11.0" remote="THLG"/>
-<project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" revision="cm-11.0" groups="caf" remote="THLG"/>
+<project path="vendor/lge" name="proprietary_vendor_lge" revision="cm-11.0" remote="THLG"/>
+<project path="device/lge/msm7x27a-common" name="android_device_lge_msm7x27a-common" revision="cm-11.0" remote="THLG"/>
+<project path="device/lge/e610" name="android_device_lge_e610" remote="THLG" revision="cm-11.0" />
+<project path="kernel/lge/msm7x27a-common" name="lge-kernel-lproj" revision="android-msm-3.4-kk" remote="THLG"/>
+<project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="THLG" revision="cm-11.0" />
 </manifest>
